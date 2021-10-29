@@ -17,7 +17,6 @@ install:
 script:
   - yarn build
   - mv build/index.html build/404.html
-  - "stable"
 deploy:
   provider: pages
   skip_cleanup: true
